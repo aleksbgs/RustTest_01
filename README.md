@@ -8,6 +8,7 @@ Verify the proof using elliptic curve arithmetic.
 Elliptic Curve Cryptography (ECC) with SHA-256 hashing for deterministic proof generation.
 Comprehensive unit tests to ensure the correctness of the implementation.
 Dependencies
+
 This project uses the following Rust crates:
 
 sha2: For SHA-256 hashing.
@@ -22,9 +23,11 @@ Copy code
 git clone https://github.com/aleksbgs/RustTest_01.git
 cd where you install
 Install the Rust toolchain if not already installed:
+
 bash
 Copy code
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+
 Build the project:
 bash
 Copy code
